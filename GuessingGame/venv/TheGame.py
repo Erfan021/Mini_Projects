@@ -1,19 +1,18 @@
 import random
 
 comp_num= random.randint(1,50)
-print(comp_num)
-
+#print(comp_num)
 to_add= comp_num + random.randint(1,5)
-print(to_add)
+#print(to_add)
 to_sub= comp_num - random.randint(1,5)
-print(to_sub)
+#print(to_sub)
 
 print("Press 1 to Play Game. \nPress 2 to Exit.")
 choice= int(input("Choose option to select: "))
 
 if choice is 1:
     player_num = int(input("Enter number between 1 and 50: "))
-    print(player_num)
+    #print(player_num)
 
     while True:
         if comp_num == player_num:
@@ -49,4 +48,3 @@ if choice is 1:
 
 elif choice is 2:
     exit()
-
